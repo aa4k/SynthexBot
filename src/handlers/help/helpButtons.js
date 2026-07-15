@@ -41,9 +41,9 @@ export const helpBugReportButton = {
     name: BUG_REPORT_BUTTON_ID,
     async execute(interaction, client) {
         const githubButton = new ButtonBuilder()
-            .setLabel('🐛 Report Bug on GitHub')
+            .setLabel('🐛 Report Bug ')
             .setStyle(ButtonStyle.Link)
-            .setURL('https://github.com/codebymitch/TitanBot/issues');
+            .setURL('https://discord.com/channels/1522665308513636563/1522724144821567591');
 
         const bugRow = new ActionRowBuilder().addComponents(githubButton);
 
